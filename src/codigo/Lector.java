@@ -1,6 +1,10 @@
 package codigo;
 
-
+/**
+ * @author Santiago
+ * @version 1.2
+ *
+ */
 //version 1.2
 public class Lector {
 
@@ -33,6 +37,15 @@ public class Lector {
         this.email = email;
     }
 
+    /**
+     *
+     * el metodo es publico,es buleano y trata sobre validar un codigopostal donde si el cogido postal es nuelo duvelve un false
+     * y si el codigo postal es menor de 5 y mayor de 0 numeros devolvera un true
+     * @param postalCode el parametro introducido es de tipo string y es un codigo postal que introduciremos para validarlo
+     * @return true nos devuelve un valor true si el codigo postal tiene mas de 0 digitos y menos de 5 digitos
+     * @since 1.1
+     *
+     */
     //descripcion de metodo
     //parametros
     //retorno
@@ -51,6 +64,15 @@ public class Lector {
         return true;
     }
 
+    /**
+     * el metodo es publico y es buelano de validar un email  nos vevolera un valor false cuando el email introducido
+     * tengas los casos descritos en los if y si no ,nos devolvera un true
+     * @param email el parametro introducido es de tipo string y es un email que introduciremos para validarlo
+     * @return true nos vuelve un valor true si evita los casos descritos en los if como valor nulo,que la longitud
+     * sea menor que 3 ....
+     * @since  1.1
+     *
+     */
     //descripcion de metodo
     //parametros
     //retorno

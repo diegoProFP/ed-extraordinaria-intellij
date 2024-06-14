@@ -1,5 +1,10 @@
 package codigo;
 
+/**
+ * @author Santiago
+ * @version 1.2
+ *
+ */
 //version 1.2
 public class Prestamo {
 
@@ -31,7 +36,15 @@ public class Prestamo {
     }
 
 
-
+    /**
+     * es un metodo que es publico y de valor double donde comprobaremos la devolucion de los prestamos con los valores diadev y mes dev
+     * y se calculara los dias del prestamo
+     * @param diaDev introducimos un parametro llamado diaDev que es de tipo int numero entero
+     * @param mesDev introducimos un parametro llamado mesdev que es de tipo int numero entero
+     * @return diasTarde devuelve un dias tarde
+     * @throws  IllegalArgumentException
+     * @since 1.2
+     */
     //descripcion de metodo
     //parametros
     //retorno
@@ -72,7 +85,13 @@ public class Prestamo {
         }
     }
 
-
+    /**
+     * el metodo es publico y de tipo double donde calcularemosmultarprestamo es par acalcular los dias que se han entregado
+     * tarde y se le multara si se paso de los dias de devolucion
+     * @deprecated esta deprecado de las version 1.0
+     * @param . aqui el valor param seria nulo pues no hemos introducido ningun parametro
+     * @return diasTarde devolverermos diasTarde cuando el usuario se haya pasado de la fecha de la devolucion y multa
+     */
     //deprecado desde la version 1.0
     //descripcion de metodo
     //parametros
