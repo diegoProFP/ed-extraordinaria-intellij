@@ -23,6 +23,12 @@ public class EjemplarLibro {
         this.anyoPublicacion = anyoPublicacion;
     }
 
+    /**
+     * Este metodo vailda el ISBN segun unas condiciones
+     * @param isbn de un String
+     * @return false si el isbn es nulo o segun el numero que se intrpduzca
+     * @since  1.0
+     */
     //descripcion de metodo
     //parametros
     //retorno
