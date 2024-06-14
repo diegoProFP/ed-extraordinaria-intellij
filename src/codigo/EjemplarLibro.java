@@ -1,5 +1,11 @@
 package codigo;
 
+
+
+/**
+ * @author Santiago
+ * @version 1.2
+ */
 //version 1.2
 public class EjemplarLibro {
 
@@ -18,6 +24,15 @@ public class EjemplarLibro {
         this.anyoPublicacion = anyoPublicacion;
     }
 
+    /**
+     *
+     * el metodo es un booleano y es para validar el isbn ,si el isbn es null devulve un return y luego si
+     * el isbn introducido contiene -
+     *
+     * @param isbn el parametro introducido es  de tipo string
+     * @return false nos devuele que esa false si es isbn introducido es incorrecto
+     * @since 1.0
+     */
     //descripcion de metodo
     //parametros
     //retorno
