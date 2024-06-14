@@ -1,6 +1,11 @@
 package codigo;
 
-//version 1.2
+/**
+ * La clase prestamo nos da las caracteristicas del prestamo y si se devuelve el prestamo y la multa que conlleva
+ * añ devolverlo tarde
+ * @author ricardo.villaroel
+ * @version 1.2
+ */
 public class Prestamo {
 
     private static final double MULTA_DIARIA_DEVOLUCION_TARDIA = 1.50;
@@ -30,8 +35,14 @@ public class Prestamo {
 
     }
 
-
-
+    /**
+     *
+     * @param diaDev en int del dia de evolucion
+     * @param mesDev en in del mes de devolucion
+     * @return true de diasTarde por la multa de cada dia tarde o false si lo devuelve a tiempo
+     * @since 1.2
+     * @throws IllegalArgumentException
+     */
     //descripcion de metodo
     //parametros
     //retorno
@@ -72,7 +83,12 @@ public class Prestamo {
         }
     }
 
-
+    /**
+     * El metodo te calcula la multa del prestamo por devolverlo tarde
+     * @deprecated  desde la version 1.0
+     * @param
+     * @return true si lo devuelve tarde y lo caulcula segun los dias tarde que lo devuelve,nada si lo devuelve a tiempo
+     */
     //deprecado desde la version 1.0
     //descripcion de metodo
     //parametros

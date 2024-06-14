@@ -1,6 +1,11 @@
 package codigo;
 
-//version 1.2
+/**
+ * La clase EjemplarLibro trata sobre si es valido el isbn del Libro , tambien nos dice caractgeristicas como el titulo
+ * el nombre de autor y el anyo de publicacion
+ * @author ricardo.villaroel
+ * @since 1.2
+ */
 public class EjemplarLibro {
 
     private String isbn;
@@ -18,6 +23,13 @@ public class EjemplarLibro {
         this.anyoPublicacion = anyoPublicacion;
     }
 
+    /**
+     * Este metodo vailda el ISBN segun unas condiciones
+     * @param isbn de un String
+     * @return false si el isbn es nulo o segun el numero que se intrpduzca
+     * @since  1.0
+     *
+     */
     //descripcion de metodo
     //parametros
     //retorno
