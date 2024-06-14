@@ -1,6 +1,9 @@
 package codigo;
 
-
+/**
+ * @author alumno
+ * @version 1.2
+ * */
 //version 1.2
 public class Lector {
 
@@ -21,15 +24,10 @@ public class Lector {
         this.dni = dni;
         this.nombre = nombre;
 
-        if(!validarCodigoPostal(codPostal)){
-            throw new IllegalArgumentException("Codigo postal inválido");
-        }
+
         this.codPostal = codPostal;
 
-        if(!validarEmail(email)){
-            throw new IllegalArgumentException("Email inválido");
 
-        }
         this.email = email;
     }
 

@@ -1,6 +1,10 @@
 package codigo;
 
 //version 1.2
+/**
+ * @version 1.2
+ * @author alumno
+ * */
 public class Prestamo {
 
     private static final double MULTA_DIARIA_DEVOLUCION_TARDIA = 1.50;

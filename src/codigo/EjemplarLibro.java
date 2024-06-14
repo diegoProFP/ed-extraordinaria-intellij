@@ -1,5 +1,9 @@
 package codigo;
 
+/**
+ * @author alumno
+ * @version 1.2
+ * */
 //version 1.2
 public class EjemplarLibro {
 
