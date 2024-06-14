@@ -1,6 +1,11 @@
 package codigo;
 
 //version 1.2
+/**
+ * clase que permite calcular multas en base a cuánto tardan en devolver el prestamo
+ * @version 1.2
+ * @author alumno
+ * */
 public class Prestamo {
 
     private static final double MULTA_DIARIA_DEVOLUCION_TARDIA = 1.50;
@@ -37,6 +42,14 @@ public class Prestamo {
     //retorno
     //está desde la 1.2
     //lanza la IllegalArgumentException
+    /**
+     * metodo que permite calcular cuando se devuelve el prestamo y su multa si es muy tarde
+     * @param diaDev que permite calcular la multa correspondiente
+     * @param mesDev que permite calcular la multa correspondiente
+     * @return la cantidad de multa segun lo mucho que se haya tardado en devolvrlo
+     * @since 1.2
+     * @throws IllegalArgumentException si las fechas no son válidas
+     * */
     public double devolverPrestamo(int diaDev, int mesDev) {
 
         if (diaDev < 1 || diaDev > 30 || mesDev < 1 || mesDev > 12) {
@@ -77,6 +90,12 @@ public class Prestamo {
     //descripcion de metodo
     //parametros
     //retorno
+    /**
+     * @deprecated 1.0
+     * metodo que permitia calcular la multa por el prestamo tardio
+     * no se introducen parametros en el metodo
+     * @return la multa en base a la fecha
+     * */
     @Deprecated(since = "1.0")
     public double calcularMultaPrestamo() {
 

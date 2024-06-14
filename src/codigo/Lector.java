@@ -1,6 +1,10 @@
 package codigo;
 
-
+/**
+ * clase lector del que se valida su correo y codigo postal
+ * @author alumno
+ * @version 1.2
+ * */
 //version 1.2
 public class Lector {
 
@@ -21,15 +25,10 @@ public class Lector {
         this.dni = dni;
         this.nombre = nombre;
 
-        if(!validarCodigoPostal(codPostal)){
-            throw new IllegalArgumentException("Codigo postal inválido");
-        }
+
         this.codPostal = codPostal;
 
-        if(!validarEmail(email)){
-            throw new IllegalArgumentException("Email inválido");
 
-        }
         this.email = email;
     }
 
@@ -37,6 +36,12 @@ public class Lector {
     //parametros
     //retorno
     //está desde la 1.1
+    /**
+     * metodo que comprueba que el codigo postal incluido es valido
+     * @param postalCode que será validado
+     * @return true si cumple las condiciones establecidas
+     * @since 1.1
+     * */
     public boolean validarCodigoPostal(String postalCode) {
         if (postalCode == null || postalCode.length() != 5) {
             return false;
@@ -55,6 +60,11 @@ public class Lector {
     //parametros
     //retorno
     //está desde la 1.1
+    /**metodo que comprueba que el email del lector es valido
+     * @param email  que será validado
+     * @return true si cumple con los requisitos
+     * @since 1.1
+     * */
     public boolean validarEmail(String email) {
         if (email == null || email.length() < 3 || !email.contains("@")) {
             return false;
