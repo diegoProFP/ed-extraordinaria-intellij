@@ -1,6 +1,11 @@
 package codigo;
 
-//version 1.2
+/**
+ * La clase prestamo nos da las caracteristicas del prestamo y si se devuelve el prestamo y la multa que conlleva
+ * añ devolverlo tarde
+ * @author ricardo.villaroel
+ * @version 1.2
+ */
 public class Prestamo {
 
     private static final double MULTA_DIARIA_DEVOLUCION_TARDIA = 1.50;

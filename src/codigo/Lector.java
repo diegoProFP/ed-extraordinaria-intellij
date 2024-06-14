@@ -1,6 +1,10 @@
 package codigo;
 
-
+/**
+ * La clase autor nos da sus caracteristicas del lector y luego si es valido el codigo postal y el email
+ * @author ricardo.villaroel
+ * @version 1.2
+ */
 //version 1.2
 public class Lector {
 
