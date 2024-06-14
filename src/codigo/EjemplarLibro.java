@@ -1,6 +1,7 @@
 package codigo;
 
 /**
+ * detalles de libro y si su isbn es válido
  * @author alumno
  * @version 1.2
  * */
@@ -26,6 +27,12 @@ public class EjemplarLibro {
     //parametros
     //retorno
     //está desde la 1.0
+    /**
+     * metodo que verifica si el isbn es valido
+     * @param isbn para validarlo
+     * @since 1.0
+     * @return false tras validarlo
+     * */
     public static boolean isValidISBN(String isbn) {
         if (isbn == null) {
             return false;
